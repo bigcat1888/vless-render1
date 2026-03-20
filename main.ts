@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std@0.208.0/http/server.ts";
 
-const UUID = Deno.env.get("UUID") || "86c50e3a-5b87-49dd-bd20-03c7f2735e40";
+const UUID = Deno.env.get("UUID") || "b2924866-2d0d-47f1-98c6-3e33ca70e612";
 const PORT = parseInt(Deno.env.get("PORT") || "8080");
 const WSPATH = Deno.env.get("WSPATH") || "/vless";
 
